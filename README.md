@@ -29,7 +29,7 @@ Este repositório contém um guia completo para a instalação personalizada do 
    - Utilize o comando `pacman -Syy` para atualizar qual quer coisa restante.
   
 5. **Instalação do Base System**
-   - Utilize o comando `archinstall` para instalar o sistema base e os pacotes essenciais.
+   - Utilize o comando `archinstall` para iniciar o script e instalar o sistema base e os pacotes essenciais.
 
 6. **Configurações Iniciais**
    - Siga o script de forma clara.
