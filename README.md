@@ -30,19 +30,17 @@ Este repositório contém um guia completo para a instalação personalizada do 
   
 5. **Instalação do Base System**
    - Utilize o comando `archinstall` para iniciar o script e instalar o sistema base e os pacotes essenciais.
-
-6. **Configurações Iniciais**
    - Siga o script de forma clara.
 
-7. **Instalação de Pacotes Personalizados**
+6. **Instalação de Pacotes Personalizados**
    - Siga os scripts em `scripts/` que julgar necessarios.
    - Siga as orientações em `packages.txt` para instalar os pacotes que utilizo frequentemente.
 
-8. **Configuração de Ambiente**
+7. **Configuração de Ambiente**
    - Copie e ajuste os arquivos de configuração encontrados na pasta `configs/` para seu usuario `.config`.
 
-9. **Scripts de Pós-Instalação**
+8. **Scripts de Pós-Instalação**
     - Execute scripts na pasta `post-install/` para concluir a configuração do seu sistema.
 
-11. **Reboot**
+9. **Reboot**
     - Reinicie o sistema.
