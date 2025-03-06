@@ -5,10 +5,9 @@ Este repositório contém um guia completo para a instalação personalizada do 
 ## Conteúdo do Repositório
 
 - **README.md**: Documento principal com instruções detalhadas para a instalação.
+- **PACKAGES.md**: Lista de pacotes recomendados para instalação.
 - **scripts/**: Scripts úteis para automatizar etapas da instalação.
 - **configs/**: Arquivos de configuração padronizados para sistemas e softwares que utilizo.
-- **packages.txt**: Lista de pacotes recomendados para instalação.
-- **post-install/**: Instruções e recomendações para a configuração do sistema após a instalação inicial.
 
 ## Instruções de Instalação
 
@@ -43,7 +42,7 @@ Este repositório contém um guia completo para a instalação personalizada do 
    - Utilize o comando `chsh -s $(which zsh)` para adicionar o zsh como padrão do usuário.
    - Reinicie o sistema.
 
-7. **Instalação de Pacotes Personalizados**
+7. **Instalação de Pacotes Básicos**
    - Utilize o comando `su` para entrar como root.
    - Utilize o comando `pacman -S git wget nano` para instalar git, o wget e o nano.
         - Para, acessar o git, baixar coisas web e editar arquivos, respectivamente.
@@ -54,7 +53,7 @@ Este repositório contém um guia completo para a instalação personalizada do 
    - Utilize o comando `sudo pacman -Syy` para  atualizar algumas possíveis versões.
    - Utilize o comando `sudo pacman -Syu` para  atualizar algumas possíveis versões.
 
-9. **Instalação de Pacotes Personalizados**
+9. **Sincronização com o repositorio atual**
    - Utilize o comando `git clone https://github.com/bezerrabruno/archinstall.git` para sincronizar com esse git.
      
 10. **Instalação de Pacotes Personalizados**
