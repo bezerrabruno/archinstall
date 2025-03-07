@@ -57,7 +57,7 @@ Este repositório contém um guia completo para a instalação personalizada do 
    - Utilize o comando `sudo pacman -Syu` para  atualizar algumas possíveis versões.
 
 9. **Sincronização com o repositorio atual**
-   - Utilize o comando `git clone git@github.com:bezerrabruno/beta_archlinux.git` para sincronizar com esse git.
+   - Utilize o comando `git clone https://github.com/bezerrabruno/beta_archlinux.git` para sincronizar com esse git.
      
 10. **Instalação de Pacotes Personalizados**
    - Siga os scripts em `scripts/` que julgar necessarios.
