@@ -1,4 +1,4 @@
-# Archinstall
+# BetaArch
 
 Este repositório contém um guia completo para a instalação personalizada do Arch Linux, adaptado de acordo com as minhas preferências e otimizações. O objetivo é fornecer um passo a passo detalhado que facilita o processo de instalação, garantindo um sistema leve, rápido e altamente configurável.
 
