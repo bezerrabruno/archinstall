@@ -19,7 +19,10 @@ Este repositório contém um guia completo para a instalação personalizada do 
 2. **Boot e Conexão à Internet**
    - Inicie o computador a partir do pendrive.
    - Valide a internet com `ping -c 4 google.com`
-        - Em caso de erro use `systemctl restart systemd-networkd` para cabo ou o `iwctl` para wifi.
+        - Em caso de erro use `systemctl restart systemd-networkd`.
+        - Para wifi, use o `NetworkManager`.
+           - primeiro `nmcli device wifi list`.
+           - depois `nmcli device wifi connect SSID password PASS hidden yes`.
      
 3. **Particionamento do Disco**
    - Use `fat32` para **'/boot'** e `ext4` para **'/'**.
